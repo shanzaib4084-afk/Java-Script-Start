@@ -256,6 +256,90 @@
 // document.writeln("The plus of 2 + 2 is equal to " + 2 + 2)
 
 
+// Java Script prompt
+
+// prompt("Enter user name", "Shanzaib")
+
+// var msg ="Enter user name"
+// var name = "Shanzaib"
+// var user = prompt(msg, name)
+
+// document.writeln("<h1>" + "<i>" + (user) + "</i>" + "</h1>")
 
 
+// document.writeln(typeof(user))
 
+// var test = +prompt
+// document.writeln(typeof(test))
+
+// var num1 = +prompt("Enter number 1")
+// var num2 = +prompt("Enter number 2")
+
+// var add = num1 + num2
+// var sub = num1 - num2
+// var mul = num1 * num2
+// var div = num1 / num2
+// var mod = num1 % num2
+
+// document.writeln(
+//         `The sum of ${num1} and ${num2} is ${add} <br>
+//          The sub of ${num1} and ${num2} is ${sub} <br>
+//          The mul of ${num1} and ${num2} is ${mul} <br>
+//          The div of ${num1} and ${num2} is ${div.toFixed(2)} <br>
+//          The mod of ${num1} and ${num2} is ${mod} <br>`
+
+// )
+
+
+// var a =+prompt("Enter Value 1")
+// var b =+prompt("Enter Value 2")
+
+// var add = (a+b)
+// var sub=(a-b)
+// var mul=(a*b)
+// var div=(a/b)
+// var mod=(a%b)
+
+// document.writeln(`
+//         The Addition of ${a} and ${b} is ${add} <br.>
+//         The Subtraction of ${a} and ${b} is ${sub}<br>
+//         The Multiplication of ${a} and ${b} is ${mul}<br>
+//         The Division of ${a} and ${b} is ${div.toFixed(2)}<br>
+//         The Modulus of ${a} and ${b} is ${mod}<br>
+        
+//         `)
+
+// Template Literals
+
+// We use tilt or backtick instead of using plus sign everytime
+
+// var firstName = "Shan"
+// var lastName = "Zaib"
+
+// document.writeln(`My First Name is <h1>${firstName}</h1> and My Last Name is <h1>${lastName}</h1>`)
+
+
+// if,else
+
+// var username ="Shanzai"
+
+// if(username==="Shanzaib"){document.writeln("Good")} else {document.writeln("Nikal")}
+
+
+// var option = prompt("Enter Message")
+
+
+// if(option=="sir k dost nahi ay"){document.writeln("11:00 to 01:00")} else {document.writeln("01:00 - 03:00")}
+
+// var user = prompt("Enter user name")
+
+// if(user=="shanzaib"){document.writeln("Login Success")}else {document.writeln("Nikal")}
+
+
+// var report =prompt("study")
+
+// if(report=="study"){document.writeln("Pass")}else{document.writeln("Fail")}
+
+// var username= prompt("Enter the User Name")
+
+// if(username=="Shanzaib"){document.writeln("Login Success")}else{document.writeln("Invalid Credentials")}
