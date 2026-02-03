@@ -343,3 +343,53 @@
 // var username= prompt("Enter the User Name")
 
 // if(username=="Shanzaib"){document.writeln("Login Success")}else{document.writeln("Invalid Credentials")}
+
+
+// Printing Functions
+
+// document.writeln()
+// alert()
+// console.log()
+
+
+// document.writeln(typeof"Shanzaib")  string
+// document.writeln(typeof(15))  number
+
+// document.writeln("30"%10)
+// document.writeln("30"-10)
+// document.writeln("30"/10)
+// document.writeln("30"*10)
+// document.writeln(`<h1> ${"30"*10} </h1>`)
+
+// document.writeln("Saad" + " " + "Ali")
+
+// alert("Hello world")
+
+// console.log("SHANZAIB " + "MAQBOOL")
+
+// var firstName= "Shanzaib "
+// var lastName= "Maqbool"
+
+// var username= firstName + lastName
+
+// console.log(firstName + lastName)
+
+// var firstName= ? (undefined)
+
+// console.log(fristname)   (is not defined)
+
+// var num1= 10
+// var num2= 5
+
+// console.log(`The addition of Number 1 and Number 2 is ${num1 + num2}`)
+
+
+
+
+
+
+
+
+
+
+
