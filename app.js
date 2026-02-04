@@ -384,12 +384,79 @@
 // console.log(`The addition of Number 1 and Number 2 is ${num1 + num2}`)
 
 
+// Math Expression Unfamilier Operator
+
+// // ++num pre increment
+// // num++ post increment
+// // --m pre decrement
+// m-- post decrement
+
+// var num=5
+
+// var eq =++num + num++ + ++num
+//         // 6 + 6 + 8
+//         // 20
+// document.writeln(eq)
+
+// var a=5
+// var b=6
+
+// var eq= a++ + b++ - b-- + ++b + ++a + a++ - b + a
+
+//         // 5 +   6 - 7 + 7 + 7 + 7 - 7 + 8
+//         // 26
+
+// document.writeln(eq)
+
+
+// var num= 5
+// num -= -5+10
+
+// document.writeln(num)
+
+// prompt to take the input from user
+
+// prompt accept 02 perimeters
+
+// var name="Enter FIrst Name"
+// var msg= "Shanzaib"
+
+// var username =prompt(name, msg)
 
 
 
+// document.writeln(`<h1> ${username} </h1>`)
+
+// var username= prompt("Shanzaib")
+// document.writeln(typeof(username))
+
+// var num1= +prompt("Enter Number 1")
+// document.writeln(typeof(num1))
 
 
+// var num1= +prompt("Enter Number 1")
+// var num2= +prompt("Enter Number 2")
 
+// var add= num1 + num2
+// var sub= num1 - num2
+// var mul= num1 * num2
+// var div= num1 / num2
+// var mod= num1 % num2
+
+// document.writeln(`
+//         The addition of ${num1} and ${num2} is ${add} <br>
+//         The substraction of ${num1} and ${num2} is ${sub} <br>
+//         The multiplication of ${num1} and ${num2} is ${mul} <br>
+//         The division of ${num1} and ${num2} is ${div.toFixed(2)} <br>
+//         The modulus of ${num1} and ${num2} is ${mod} <br>
+//          `)
+
+
+// if, else
+
+// // var username= prompt("Enter User Name")
+
+// if(username=="Shanzaib"){document.writeln("Login Success")}else{document.writeln("Wrong Username")}
 
 
 
