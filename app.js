@@ -414,6 +414,9 @@
 
 // document.writeln(num)
 
+
+
+
 // prompt to take the input from user
 
 // prompt accept 02 perimeters
@@ -452,11 +455,101 @@
 //          `)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // if, else
 
 // // var username= prompt("Enter User Name")
 
 // if(username=="Shanzaib"){document.writeln("Login Success")}else{document.writeln("Wrong Username")}
 
+// False values
+// six falsy values
+// false
+// null
+// NaN
+// ''
+// 0
 
+
+// False values practice
+// var eq = false && true
+// var eq = 5 == "5" && 6>5
+// var eq = 5 == "5" || 6>7       
+// var eq = 7>5 && "Asad" && 10
+// var eq = 0 && "Asad" && "Saad"
+// var eq = false && "Pappu" && undefined || "Pink Billi"
+
+// Email by User
+
+// var email = prompt("Enter Your Email")
+// var password = prompt("Enter Your Password")
+
+// if(email == "hareemfatima@gmail.com" && password === "123456"){document.writeln("Login Successfull")}else{alert("login Failed")}
+
+// Nested, if
+
+// var a = 6
+// var b = 10
+
+// if(a==5){if(b==10) {console.log("both are true")}
+// else{console.log("b is not true")}}
+// else {console.log("a is not ture")}
+
+
+
+// Aray [Collection of Data]
+
+// var student1= ["Satti"]
+
+// var names = ["Satti", "Yasir", "Nasir", "Hammad","Zeeshan"]
+
+// console.log(names[1], names[3])
+
+// var names =["Satti", "Shanzaib", "Asad", "Ghulam"]
+// document.writeln(names[1], names[2] )
+
+
+// Table made by User.
+
+// var num = prompt("Enter Your Number")
+
+// for(var i=1; i<=20; i++){
+//         document.writeln(`${num} x ${i} = ${num * i} <br>` )
+// }
+
+
+
+
+// for(i=1; i<=10; i++){
+//         document.writeln(`${i} Rehan<br> 
+//                 `)
+// }
 
