@@ -9,6 +9,9 @@
 // alert("Welcome to JS Land.....\nHappy coding")
 
 
+// alert(age)
+// alert(course)
+
 // alert("Welcome to JS Land.... ")
 // alert("Happy Coding!")
 
@@ -103,7 +106,6 @@
 
 // Chapter No 5
 
-
 // Point No 1
 
 // var num1 = 3
@@ -143,31 +145,106 @@
 
 // Point No 3
 
+// var num =
+
+// document.writeln(`Value after variable declaration is ${num}<br>`)
+
+// num = 5
+
+// document.writeln(`initial value: ${num}<br>value after increment is ${++num} <br>`)
+
+// num = num + 7
+
+// document.writeln(`value after addtion is ${num}<br> value after decrement is ${--num}<br> The remainder is ${num%3}`)
+
+
+// Point No 4
+
+
+// var costOfMovie = 600
+
+// var quantity = 5
+
+// var eq = quantity * costOfMovie
+
+// document.writeln(`Total cost to buy ${quantity} tickets to a movie is ${eq}PKR`)
+
+
+// Point No 5
+
+// for(i=1; i<=10; i++){
+//         document.writeln(`4 x ${i} = ${4 * i}<br>`)
+// }
+
+// point No 6
+
+// // var celsius = 25
+
+// // var fahrenheit = (celsius * 9/5) + 32
+
+// // document.writeln(`${celsius} is ${fahrenheit}<br>`)
+
+// // var fahrenheit = 77
+
+// // var celsius = (fahrenheit -32) * 5/9
+
+// document.writeln(`${fahrenheit} is ${celsius}`)
+
+
+// Point No 7
+
+// var item1 = 650
+// var item2 = 100
+// var item1Quantity = 3
+// var item2Quantity = 7
+// var shippingCharges = 100
+
+// document.writeln(`Price of Item 1 is ${item1}<br>Quantity of Item 1 is ${item1Quantity}<br>Price of Item 2 is ${item2}<br>Quantity of Item 2 is ${item2Quantity}<br>Shipping Charges ${shippingCharges}<br><br>Total Cost of Your Order is ${item1 * item1Quantity + item2 * item2Quantity + shippingCharges}` )
+
+
+// Point No 8
+
+// var totalMarks = 980;
+// var obtainedMarks = 804;
+
+// var percentage = (obtainedMarks / totalMarks) * 100;
+
+// document.writeln(`Total Marks: ${totalMarks}<br>
+// Marks Obtained: ${obtainedMarks}<br>
+// Percentage: ${percentage.toFixed(2)}%`);
+
+// Point No 9
+
+// var usDollars = 10
+// var usDollar01 = 104.80
+// var saudiRiyals = 25
+// var saudiRiyal01 = 28
+
+// var PKR = (usDollars * usDollar01 + saudiRiyals * saudiRiyal01)
+
+// document.writeln(`Total Currency in PKR ${PKR}`)
+
+// Point No 10
+
+// var num = 4
+
+// document.writeln(`${num + 5 * 10 / 2}`)
+
+
+// Point No 11
+
+// var birthYear = 1996
+// var currentYear = 2026
+// var age = (currentYear - birthYear)
+
+// document.writeln(`Your Age is ${age}`)
 
 
 
 
-// var a = 5
-
-// var num=1
 
 
-// document.writeln("Value after variable declaration is:??")
-// document.writeln("<br>")
-// document.writeln("initial value: " + a)
-// document.writeln("<br>")
-// document.writeln("Value after increment is: " + ++a)
-// document.writeln("<br>")
-// document.writeln("Value after addition is: " + (a + 7))
-// document.writeln("<br>")
-// document.writeln("Value after decrement is: " - (a - --a))
 
-
-// var cost = 600
-// var numberOfTickets = 5
-// var totalCost = cost * numberOfTickets
-
-// document.writeln("Total cost to buy " + numberOfTickets + "tickets to a movie is " + totalCost + " PKR")
 
 // let number = prompt("Enter a number to display its multiplication table:");
 
@@ -519,10 +596,9 @@
 // var a = 6
 // var b = 10
 
-// if(a==5){if(b==10) {console.log("both are true")}
-// else{console.log("b is not true")}}
-// else {console.log("a is not ture")}
-
+// if(a==6){if(b==10) {document.writeln("both are true")}
+// else{document.writeln("b is not true")}}
+// else {document.writeln("a is not ture")}
 
 
 // Aray [Collection of Data]
@@ -535,6 +611,39 @@
 
 // var names =["Satti", "Shanzaib", "Asad", "Ghulam"]
 // document.writeln(names[1], names[2] )
+
+// var names = ["Satti", "Shanzaib", "Asad", "Ghulam", "Sohail"]
+
+// names.length = 0
+
+// console.log(names)
+
+// Push, Pop, Shift, Unshift, Slice, Splice
+
+var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
+
+// fruits.push("Orange") (Akhir sy Daly ga)
+
+// fruits.pop()    (Akhir sy Nikaly ga)
+// fruits.pop()
+
+// fruits.shift()
+// fruits.shift()
+// fruits.shift()       (Shuru sy Nikaly ga)
+
+// fruits.unshift("Orange", "Mango") 
+// (Shuru sy Daaly ga)
+
+// var result = fruits.slice(1,3)
+// document.writeln(result + "<br>")
+
+
+
+// fruits.splice(2, 1, "Grapes")  
+// (2 sy Start, 1 sy delete, "Grapes add")
+
+// document.writeln(fruits)
+
 
 
 // Table made by User.
@@ -552,4 +661,88 @@
 //         document.writeln(`${i} Rehan<br> 
 //                 `)
 // }
+
+
+
+// Concatenating Text Strings
+
+// var message = "Thanks "
+// var userName = prompt("Enter User Name")
+// var banger = " !"
+// var customMess = (message + userName + banger)
+
+// alert(customMess)
+
+
+// Break & Continue
+
+// Break
+
+// for (var i=1; i<=10; i++){
+        
+//         if(i==5)break         
+//         document.writeln(`${i} <br>`)
+// }
+
+// Continue
+
+// for (var i=1; i<=10; i++){
+        
+//         if(i==5)continue         
+//         document.writeln(`${i} <br>`)
+// }
+
+
+// For Loop
+
+// var cars = ["BMW", "Mehran", "FX", "Alto", "Suzuki", "Khyber"]
+
+// var user = prompt("Enter your car name")
+
+// match=false
+
+
+// // ak ak element k liy loop lagaty hain for ka
+
+// for (var i=0; i<cars.length; i++){
+        
+//         if(user==cars[i]){match=true
+//                 document.writeln(user + " Car Available")
+//         }
+// }
+
+// if(match==false){
+//                 document.writeln(user + " Car Not Available")
+//         }
+
+
+
+        
+        
+
+
+
+
+
+
+
+// var cityNames= ["Karachi", "Hyderabad", "Lahore", "Islamabad", "Chakwal"]
+
+// var user = prompt("Enter Your City Name")
+// match=false
+
+// for(var i=0; i<cityNames.length; i++){
+//         if(user==cityNames[i]){match=true
+//                 document.writeln(user + " City is Clean") 
+//         }break  
+// }
+
+// if(match==false){
+//         document.writeln(user + " City is Not Clean")
+// }
+
+
+
+
+
 
