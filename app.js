@@ -620,7 +620,7 @@
 
 // Push, Pop, Shift, Unshift, Slice, Splice
 
-var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
+// var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
 
 // fruits.push("Orange") (Akhir sy Daly ga)
 
@@ -740,6 +740,96 @@ var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
 // if(match==false){
 //         document.writeln(user + " City is Not Clean")
 // }
+
+// for loops nested
+
+// var students = ["Saad", "Rehan", "Rohan", "Zameer", "Ahmed"]
+//  var father = ["Maqbool"]
+
+//  for (var i=0; i<students.length; i++){
+//         document.writeln(students[i] + " " + father + "<br>")
+//  }
+
+
+// var students = ["Saad", "Rehan", "Rohan", "Zameer", "Ahmed"]
+//  var father = ["Maqbool", "Ahmed"]
+
+//  for (var i=0; i<students.length; i++){
+//         for (j=0; j<father.length; j++)
+//         document.writeln(students[i] + " " + father[j] + "<br>")
+//  }
+
+
+// for (var i=1; i<=5; i++){
+//         for(var j=1; j<=i; j++){
+//                 document.write(j + " ")
+//         }
+
+//         document.writeln("<br>")
+        
+// }
+
+// for (var i=1; i<=10; i++){
+//         for(var j=1; j<=i; j++){
+//                 document.writeln(j + " ")
+//         }
+//         document.writeln("<br>")
+
+// }
+
+// for reverse
+
+// for (var i = 1; i <= 10; i++) {       // Rows
+//     for (var j = 10; j >= 11 - i; j--) {  // Numbers in reverse
+//         document.writeln(j + " ");
+//     }
+//     document.writeln("<br>");
+// }
+
+// for (var i=1; i<=5; i++){
+//         for(var j=5; j>= 6-i; j--){
+//                 document.writeln(j + " ")
+//         }
+//         document.writeln("<br>")
+                
+// }
+
+// for (var i=1; i<=5; i++){
+//         for(var j=5; j>=6-i; j--){
+//                 document.writeln("*" + " ")
+//         }
+//         document.writeln("<br>")
+                
+// }
+
+// 1 to 100 with single loop
+
+// for (var i = 1; i <= 100; i++) {
+//     document.writeln(i + " ");
+//     if (i % 10 == 0) {         // har 10 numbers ke baad row break
+//         document.writeln("<br>");
+//     }
+// }
+
+
+// 1 to 100 with double loop
+
+// for (var i = 1; i <= 100; i += 10) {    // outer loop → starting number of each row
+//     for (var j = i; j < i + 10; j++) {  // inner loop → print 10 numbers
+//         document.writeln(j + " ");
+//     }
+//     document.writeln("<br>");           // row complete
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
