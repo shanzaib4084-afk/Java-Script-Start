@@ -591,7 +591,7 @@
 
 // if(email == "hareemfatima@gmail.com" && password === "123456"){document.writeln("Login Successfull")}else{alert("login Failed")}
 
-// Nested, if
+// Nested, if  (if k ander doosra if)
 
 // var a = 6
 // var b = 10
@@ -599,6 +599,10 @@
 // if(a==6){if(b==10) {document.writeln("both are true")}
 // else{document.writeln("b is not true")}}
 // else {document.writeln("a is not ture")}
+
+
+
+
 
 
 // Aray [Collection of Data]
@@ -618,6 +622,8 @@
 
 // console.log(names)
 
+
+// array methods
 // Push, Pop, Shift, Unshift, Slice, Splice
 
 // var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
@@ -645,7 +651,6 @@
 // document.writeln(fruits)
 
 
-
 // Table made by User.
 
 // var num = prompt("Enter Your Number")
@@ -653,8 +658,6 @@
 // for(var i=1; i<=20; i++){
 //         document.writeln(`${num} x ${i} = ${num * i} <br>` )
 // }
-
-
 
 
 // for(i=1; i<=10; i++){
@@ -693,37 +696,41 @@
 // }
 
 
-// For Loop
+// For Loops
+
+// // Flags
+// var match = "no"  (Match is the flags)
+
+// // Booleans
+// var match = false    (false is the boolean)
+
+// break
+
+// number of elements in the array
+// var numOfCars= Cars.length  (but we can also use cars.length in for loop)
+
+
 
 // var cars = ["BMW", "Mehran", "FX", "Alto", "Suzuki", "Khyber"]
-
+// var numOfCars = cars.length
 // var user = prompt("Enter your car name")
 
-// match=false
+// match=false                          
 
 
-// // ak ak element k liy loop lagaty hain for ka
+// ak ak element k liy loop lagaty hain for ka
 
-// for (var i=0; i<cars.length; i++){
+// for (var i=0; i<numOfCars; i++){
         
 //         if(user==cars[i]){match=true
 //                 document.writeln(user + " Car Available")
+//                    break
 //         }
 // }
 
 // if(match==false){
 //                 document.writeln(user + " Car Not Available")
 //         }
-
-
-
-        
-        
-
-
-
-
-
 
 
 // var cityNames= ["Karachi", "Hyderabad", "Lahore", "Islamabad", "Chakwal"]
@@ -733,13 +740,19 @@
 
 // for(var i=0; i<cityNames.length; i++){
 //         if(user==cityNames[i]){match=true
-//                 document.writeln(user + " City is Clean") 
-//         }break  
+//                 document.writeln(user + " City is Clean")
+//                 break 
+//         }  
 // }
 
 // if(match==false){
 //         document.writeln(user + " City is Not Clean")
 // }
+
+
+
+
+
 
 // for loops nested
 
@@ -751,6 +764,7 @@
 //  }
 
 
+
 // var students = ["Saad", "Rehan", "Rohan", "Zameer", "Ahmed"]
 //  var father = ["Maqbool", "Ahmed"]
 
@@ -760,6 +774,12 @@
 //  }
 
 
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// // 1 2 3 4 5
 // for (var i=1; i<=5; i++){
 //         for(var j=1; j<=i; j++){
 //                 document.write(j + " ")
@@ -769,30 +789,23 @@
         
 // }
 
-// for (var i=1; i<=10; i++){
-//         for(var j=1; j<=i; j++){
-//                 document.writeln(j + " ")
-//         }
-//         document.writeln("<br>")
 
-// }
 
 // for reverse
+// 5
+// 5 4
+// 5 4 3
+// 5 4 3 2
+// 5 4 3 2 1
 
-// for (var i = 1; i <= 10; i++) {       // Rows
-//     for (var j = 10; j >= 11 - i; j--) {  // Numbers in reverse
+// for (var i = 1; i <= 5; i++) {       // Rows
+//     for (var j = 5; j >= 6 - i; j--) {  // Numbers in reverse
 //         document.writeln(j + " ");
 //     }
 //     document.writeln("<br>");
 // }
 
-// for (var i=1; i<=5; i++){
-//         for(var j=5; j>= 6-i; j--){
-//                 document.writeln(j + " ")
-//         }
-//         document.writeln("<br>")
-                
-// }
+// Star Pattern
 
 // for (var i=1; i<=5; i++){
 //         for(var j=5; j>=6-i; j--){
@@ -801,6 +814,8 @@
 //         document.writeln("<br>")
                 
 // }
+
+
 
 // 1 to 100 with single loop
 
@@ -811,7 +826,6 @@
 //     }
 // }
 
-
 // 1 to 100 with double loop
 
 // for (var i = 1; i <= 100; i += 10) {    // outer loop → starting number of each row
@@ -820,11 +834,6 @@
 //     }
 //     document.writeln("<br>");           // row complete
 // }
-
-
-
-
-
 
 
 
