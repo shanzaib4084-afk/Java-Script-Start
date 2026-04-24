@@ -1,0 +1,25 @@
+/* :root{
+    --h1-color: purple
+
+}
+
+h1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid Black;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    background-color: var(--h1-color);
+} */
+
+
+
+#msg-box{
+    border: 1px solid black;
+    width: 30%;
+    padding: 30px;
+}

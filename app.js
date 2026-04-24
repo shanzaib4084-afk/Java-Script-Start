@@ -241,6 +241,8 @@
 
 
 
+        
+
 
 
 
@@ -287,9 +289,9 @@
         // 1 + 2 + 4 - 3 + 1 + 1 + 3 + 2 + 0
         // 11
 
-// var num = 5
+// let num = 5
 
-// num++
+// num+5
 
 // document.writeln(num)
 
@@ -333,58 +335,10 @@
 // document.writeln("The plus of 2 + 2 is equal to " + 2 + 2)
 
 
-// Java Script prompt
-
-// prompt("Enter user name", "Shanzaib")
-
-// var msg ="Enter user name"
-// var name = "Shanzaib"
-// var user = prompt(msg, name)
-
-// document.writeln("<h1>" + "<i>" + (user) + "</i>" + "</h1>")
 
 
-// document.writeln(typeof(user))
-
-// var test = +prompt
-// document.writeln(typeof(test))
-
-// var num1 = +prompt("Enter number 1")
-// var num2 = +prompt("Enter number 2")
-
-// var add = num1 + num2
-// var sub = num1 - num2
-// var mul = num1 * num2
-// var div = num1 / num2
-// var mod = num1 % num2
-
-// document.writeln(
-//         `The sum of ${num1} and ${num2} is ${add} <br>
-//          The sub of ${num1} and ${num2} is ${sub} <br>
-//          The mul of ${num1} and ${num2} is ${mul} <br>
-//          The div of ${num1} and ${num2} is ${div.toFixed(2)} <br>
-//          The mod of ${num1} and ${num2} is ${mod} <br>`
-
-// )
 
 
-// var a =+prompt("Enter Value 1")
-// var b =+prompt("Enter Value 2")
-
-// var add = (a+b)
-// var sub=(a-b)
-// var mul=(a*b)
-// var div=(a/b)
-// var mod=(a%b)
-
-// document.writeln(`
-//         The Addition of ${a} and ${b} is ${add} <br.>
-//         The Subtraction of ${a} and ${b} is ${sub}<br>
-//         The Multiplication of ${a} and ${b} is ${mul}<br>
-//         The Division of ${a} and ${b} is ${div.toFixed(2)}<br>
-//         The Modulus of ${a} and ${b} is ${mod}<br>
-        
-//         `)
 
 // Template Literals
 
@@ -398,7 +352,7 @@
 
 // if,else
 
-// var username ="Shanzai"
+// var username ="Shanzaib"
 
 // if(username==="Shanzaib"){document.writeln("Good")} else {document.writeln("Nikal")}
 
@@ -408,9 +362,15 @@
 
 // if(option=="sir k dost nahi ay"){document.writeln("11:00 to 01:00")} else {document.writeln("01:00 - 03:00")}
 
+
+
+
+
 // var user = prompt("Enter user name")
 
 // if(user=="shanzaib"){document.writeln("Login Success")}else {document.writeln("Nikal")}
+
+
 
 
 // var report =prompt("study")
@@ -504,8 +464,11 @@
 // var username =prompt(name, msg)
 
 
-
 // document.writeln(`<h1> ${username} </h1>`)
+
+
+
+
 
 // var username= prompt("Shanzaib")
 // document.writeln(typeof(username))
@@ -552,15 +515,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 // if, else
 
 // // var username= prompt("Enter User Name")
@@ -577,12 +531,15 @@
 
 
 // False values practice
-// var eq = false && true
+// var eq = false && true               
 // var eq = 5 == "5" && 6>5
 // var eq = 5 == "5" || 6>7       
 // var eq = 7>5 && "Asad" && 10
 // var eq = 0 && "Asad" && "Saad"
 // var eq = false && "Pappu" && undefined || "Pink Billi"
+
+// console.log(eq)
+
 
 // Email by User
 
@@ -590,6 +547,7 @@
 // var password = prompt("Enter Your Password")
 
 // if(email == "hareemfatima@gmail.com" && password === "123456"){document.writeln("Login Successfull")}else{alert("login Failed")}
+
 
 // Nested, if  (if k ander doosra if)
 
@@ -599,8 +557,6 @@
 // if(a==6){if(b==10) {document.writeln("both are true")}
 // else{document.writeln("b is not true")}}
 // else {document.writeln("a is not ture")}
-
-
 
 
 
@@ -624,31 +580,25 @@
 
 
 // array methods
-// Push, Pop, Shift, Unshift, Slice, Splice
+// Push  akhir sy daaly
+// , Pop akhir sy nikaly ga
+// , Shift shuru sy nikaly ga
+// , Unshift shuru sy daly ga
+// , Slice copy kr k new array return krta hai
+//  Splice kahin sy b daaly ga kahin sy b nikaly ga
 
-// var fruits= ["Apple", "Banana", "Kiwi", "Mango", "Orange"]
-
-// fruits.push("Orange") (Akhir sy Daly ga)
-
-// fruits.pop()    (Akhir sy Nikaly ga)
-// fruits.pop()
-
-// fruits.shift()
-// fruits.shift()
-// fruits.shift()       (Shuru sy Nikaly ga)
-
-// fruits.unshift("Orange", "Mango") 
-// (Shuru sy Daaly ga)
-
-// var result = fruits.slice(1,3)
-// document.writeln(result + "<br>")
-
-
+// var fruits = ["Apple ", "Banana ", "Mango ", "Strawbery ", "Melon "]
+// // fruits.pop()
+// // fruits.unshift("Kaila")
+// // fruits.shift()
+// // fruits.splice(3,1,"Kaila")
+// var result = fruits.slice(2,4)       (2 starting Index and 4 length)
+// document.writeln(result)
+// document.writeln(fruits)
 
 // fruits.splice(2, 1, "Grapes")  
 // (2 sy Start, 1 sy delete, "Grapes add")
 
-// document.writeln(fruits)
 
 
 // Table made by User.
@@ -664,8 +614,6 @@
 //         document.writeln(`${i} Rehan<br> 
 //                 `)
 // }
-
-
 
 // Concatenating Text Strings
 
@@ -750,10 +698,6 @@
 // }
 
 
-
-
-
-
 // for loops nested
 
 // var students = ["Saad", "Rehan", "Rohan", "Zameer", "Ahmed"]
@@ -762,7 +706,6 @@
 //  for (var i=0; i<students.length; i++){
 //         document.writeln(students[i] + " " + father + "<br>")
 //  }
-
 
 
 // var students = ["Saad", "Rehan", "Rohan", "Zameer", "Ahmed"]
@@ -788,8 +731,6 @@
 //         document.writeln("<br>")
         
 // }
-
-
 
 // for reverse
 // 5
@@ -826,6 +767,7 @@
 //     }
 // }
 
+
 // 1 to 100 with double loop
 
 // for (var i = 1; i <= 100; i += 10) {    // outer loop → starting number of each row
@@ -834,6 +776,318 @@
 //     }
 //     document.writeln("<br>");           // row complete
 // }
+
+// ***********************************************************************************************
+
+// UpperCase and LowerCase
+
+// let str = ("shanzaib")
+
+// console.log(str.toUpperCase())
+
+// console.log(str.toLowerCase())
+
+// -----------------------------------------------------------------------------------------------
+
+// let str = ("aTiTude bOY")
+
+// // console.log(str)
+
+// let first = str.slice(0 , 1).toUpperCase()
+// let remain = str.slice(1 , 11).toLowerCase()
+
+// let result = first + remain
+
+// console.log(result)
+
+// ------------------------------------------------------------------------------------------------------
+
+// Agr Har Word ka 1st letter Capital krna ho to
+
+// let str = "aTiTude bOY";
+
+// let words = str.split(" ");
+
+// let firstWord = words[0].charAt(0).toUpperCase() + words[0].slice(1).toLowerCase();
+// let secondWord = words[1].charAt(0).toUpperCase() + words[1].slice(1).toLowerCase();
+
+// let result = firstWord + " " + secondWord;
+
+// console.log(result);
+
+// --------------------------------------------------------------------------------------------
+
+// Agr user sy input lyna ho to
+
+// let str = prompt("Enter Your Name")
+
+// // console.log(str)
+
+// let first = str.slice(0 , 1).toUpperCase()
+// let remain = str.slice(1 , 11).toLowerCase()
+
+// let result = first + remain
+
+// console.log(result)
+
+// ********************************************************************************************
+
+// Math.round (Agr Point k Bad >=5 value ho gi to Number increase kr dy Ga) *****
+
+// let a = 9.14
+
+// document.writeln(Math.round(a))
+
+// *********************
+
+// Math.ceil (Agr value k bad point aa gya aur Value 1 ya 1 sy zyada hoi to ak Number increase kr dy Ga)
+
+// let a = 7.1
+
+// document.writeln(Math.ceil(a))
+
+// *********************
+
+// Math.floor (Point ko Ignore kr dy ga)
+
+// let a = 7.332
+
+// document.writeln(Math.floor(a))
+
+// *********************
+
+// Math.random (Koi bhi random value likhny k liy i.e password Generator etc)
+
+// let a = (Math.random() * 11).toFixed(0)
+
+// document.writeln(a)
+
+// ----------------------------------------------------------------------------------------------------
+
+// Password Generator
+
+// function generatePassword(length) {
+//         let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+";
+//         let password = "";
+
+//         for(i=0; i<length; i++){
+//                 let i = Math.floor(Math.random() * chars.length);
+//                 password += chars[i];
+//         }
+//         return password;
+// }
+
+// console.log(generatePassword(8))
+
+
+// **************************************************************************************************
+
+// Generate Password by User Length
+
+// let chars = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
+
+// let password = "";
+
+// let passwordLength = +prompt("Enter Your Password Length")
+
+// for(i=0; i<passwordLength; i++){
+//         let randomIndex = Math.floor(Math.random() * chars.length);
+
+//         password+= chars[randomIndex] 
+// }
+
+// document.writeln(password)
+
+
+// -----------------------------------------------------------------------------------------------------
+
+// Head Tail Game
+
+// let heads = prompt("Enter Your Name")
+// let tails = prompt("Enter Your Name")
+
+// var toss = Math.floor(Math.random() * 2)
+
+// if (toss == 0){
+//         console.log(heads + " Win")
+// } else {console.log(tails + " Win")}
+
+
+// ***************************************************************************************************
+
+// Functions
+
+// Two types of Functions
+// 1. User Defined Function (Built by User)
+
+        // e.g
+//         function greet() {
+//   console.log("Hello!");
+// }
+// greet();
+
+// 2. Built in Function (Built by Default JavaScript)
+
+        // alert("Hello");       
+        // console.log("Hi");    
+        // Math.sqrt(16);   
+        
+
+// important Tips
+// ------------------------------------------------------------------------------------------
+
+// function m ham kitny bhi perimeters dy sakty hain
+
+// function sum(a,b,c,d,e,f,g,h){
+//         console.log(a+b+c)
+// }
+// sum(1,2,3) (Extra perimeters ko ignore kr dy ga)
+
+// ----------------------------------------------------------------------------------------------
+// undefined + undefined = NaN
+
+// function sum(a,b){
+// document.writeln(a+b)
+// }
+// sum()      // undefined + undefined = NaN
+
+// -------------------------------------------------------------------------------------------------
+
+// 10 + undefined = NaN
+
+// function sum(a,b){
+//         console.log(a+b)
+// }
+// sum(10)
+
+// -----------------------------------------------------------------------------------------------------
+
+// string aa jay to operation perform nai ho ga. Concate kr jay ga
+
+// string + underfined = stringundefined
+
+// function sum(a,b){
+//         console.log(a+b)
+// }
+// sum("10")
+
+
+// -----------------------------------------------------------------------------------------------
+
+// Get 3 Prompt from user and if + and * else -
+
+// function getNumber(){
+//         let num1 = +prompt("Enter Number 1");
+//         let num2 = +prompt("Enter Number 2");
+//         let action = prompt("Enter Your Action");
+
+//         if(action == "+"){
+//                 alert(num1+num2);
+//         }
+//         else if(action == "*"){
+//                 alert(num1*num2);
+//         }
+//         else {
+//                 alert(num1-num2)
+//         }
+// }
+
+// getNumber()
+
+// -------------------------------------------------------------------------------------------------
+
+// function greet(name){
+//         return "Welcome" + name
+// }
+
+// let getValue = "Saad"
+// let getValue2 = "Asad"
+// console.log(getValue, getValue2)
+
+
+// ---------------------------------------------------------------------------------------------------------
+
+// getelementbyId
+
+// function showMessage(){
+//         let getInput = document.getElementById("message");
+
+//         document.getElementById("output").innerHTML = getInput.value
+
+// }
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Calculate the Value
+
+
+// let showMessage = document.getElementById("msg-box");
+
+// function calculate(){
+
+//     let num1 = Number(document.getElementById("num1").value);
+//     let num2 = Number(document.getElementById("num2").value);
+//     let op = document.getElementById("op").value;
+
+//     if(op == "+"){
+//         showMessage.innerHTML = num1 + num2;
+//     } 
+//     else if(op == "*"){
+//         showMessage.innerHTML = num1 * num2;
+//     } 
+//     else if(op == "-"){
+//         showMessage.innerHTML = num1 - num2;
+//     } 
+//     else if(op == "/"){
+//         showMessage.innerHTML = num1 / num2;
+//     } 
+//     else if(op == "%"){
+//         showMessage.innerHTML = num1 % num2;
+//     }
+//     else {
+//         alert("Please enter correct operator (+, -, *, /, %)");
+//     }
+// }
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// calculate the value by option
+
+// let showMessage = document.getElementById("msg-box")
+
+// function calculate(){
+//         let num1 = Number(document.getElementById("num1").value);
+//         let op = document.getElementById("op").value;
+//         let num2 = Number(document.getElementById("num2").value);
+
+//         if(op === "+"){
+//                showMessage.innerHTML = num1 + num2;
+//         }
+//         else if(op === "-"){
+//                showMessage.innerHTML = num1 - num2;
+//         }
+//         else if(op === "*"){
+//                showMessage.innerHTML = num1 * num2;
+//         }
+//         else if(op === "/"){
+//                showMessage.innerHTML = num1 / num2;
+//         }
+//         else if(op === "%"){
+//                showMessage.innerHTML = num1 % num2;
+//         }
+//         else {
+//                 alert("Please enter the value")
+//         }
+
+// }
+
+// or
+
+// if(num1 === "" && num2 === "" && op === ""){
+//         alert("Plese enter the value")
+// }
+// -------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
