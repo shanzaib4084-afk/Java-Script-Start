@@ -1089,6 +1089,25 @@
 // -------------------------------------------------------------------------------------------------------------------------------------------
 
 
+// String ko array m convert krna ho to
+
+// var str = ("Shanzaib")
+
+// console.log(str.split())   // (is sy shanzaib array m aa jay ga)
+
+// console.log(str.split(""))
+// // is sy shanzaib ka har word alag alag array m convert ho jay ga
+
+
+// ---------------------------------------------------------------------------
+
+// Querry Selector
+
+// document.querySelector('')      ye tag ko represent krta hai
+
+// document.querySelector('#')     ye id ko represent krta hai
+
+// document.querySelector('.')        ye class ko represent krta hai     
 
 
 
