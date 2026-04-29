@@ -1110,7 +1110,42 @@
 // document.querySelector('.')        ye class ko represent krta hai     
 
 
+// ------------------------------------------------------------------------------------------
 
+// JS Methods
+
+// setInterval()   Start ho jay to continue rehta hai jb tk manual stop na kro
+                //    setInterval 2 cheezain leta ha. ak function aur dosra time in Miliseconds
+
+// setTimeout()       Ak bar krta hai
+// clearInterval()    setinterval ko stop krta hai
+// clearTimeout()  
+
+// Jo function kisi method k ander ho to wo function sirf us ka hi hai.
+// e.g setInterval(shani)  Ye function sirf ak hi function ho ga.
+
+// Practice
+
+// setInterval(function(){
+//         document.write("awais-danish" + "<br>")
+// }, 1000)              
+// is main ak function hai aur 2nd time hai, means k 1000ms = 1sec (ye continue print krta rhy ga)
+
+// let i = 1;
+
+// setInterval(function(){
+//         document.writeln(i++ + "<br>" )
+// }, 1000)
+
+
+
+// ****************************************************************************
+// setTimeout(function(){
+//         document.write("Malik Shan" + "<br>")
+// }, 1000)               ye timeout function sirf ak dafa print kry ga
+
+
+// -------------------------------------------------------------------------------------------
 
 
 
