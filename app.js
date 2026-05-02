@@ -1147,6 +1147,26 @@
 
 // -------------------------------------------------------------------------------------------
 
+// Read More
+
+// function para(){
+//         var inp = prompt("Enter Some Text")
+//         document.querySelector("#readMore").innerHTML = inp
+// }
+
+// Method 2
+
+// Agr para k end sy next text continue krna ho to getPara.innerHTML += inp likhna ho gadc
+
+// function para(){
+//         var inp = prompt("Enter Some Text")
+//         var getPara = document.querySelector("#readMore")
+        
+//         getPara.innerHTML += " " + inp
+// }
+
+
+// ----------------------------------------------------------------------------------------------------------------------
 
 
 
