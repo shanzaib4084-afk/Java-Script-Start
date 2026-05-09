@@ -1168,7 +1168,42 @@
 
 // ----------------------------------------------------------------------------------------------------------------------
 
+// Agr user koi amount add kry to pta chal saky k is m kity hundred hain, kitny 20 hain, kitny 9 hai, aur kitna 1 h
 
+// function calculate(){
+
+        
+//         let num = Number(prompt("Enter a number"));
+        
+//         let hundred = Math.floor(num / 100);
+//         num = num % 100;
+        
+//         let twenty = Math.floor(num / 20);
+//         num = num % 20;
+        
+//         let nine = Math.floor(num / 9);
+//         num = num % 9;
+        
+//         let one = Math.floor(num / 1);
+        
+        
+        
+//         document.getElementById('cal').innerHTML = ([hundred, twenty, nine, one]);
+// }
+
+// -----------------------------------------------------------------------------------------------------------------
+
+// Eidul Adha main kitny days baqi hain
+
+// let eidDate = new Date("28 May 2026");
+
+// let today = new Date();
+
+// let diff = eidDate - today;
+
+// document.writeln(Math.ceil(diff/(1000 * 60 * 60 * 24)))
+
+// ____________________________________________________________________________________________________________
 
 
 
