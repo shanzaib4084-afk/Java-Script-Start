@@ -1407,6 +1407,8 @@ function calculate(){
 
 // ------------------------------------------------------------------------------------------------------------
 
+// Q No 10
+
 // User se password lo aur check kro agar 8 characters sy kam hai to Weak Password warna strong Password
 
 // let password = prompt("Enter Your Password");
