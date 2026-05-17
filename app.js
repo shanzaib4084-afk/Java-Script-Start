@@ -1086,6 +1086,43 @@
 // if(num1 === "" && num2 === "" && op === ""){
 //         alert("Plese enter the value")
 // }
+
+
+let showMessage = document.getElementById('output')
+
+function calculate(){
+
+        let num1 = Number(document.getElementById('num1').value);
+        let op = document.getElementById('op').value;
+        let num2 = Number(document.getElementById('num2').value);
+
+        if(op === "+"){
+                showMessage.innerHTML = num1 + num2;
+        }
+        
+        else if(op === "-"){
+                showMessage.innerHTML = num1 - num2;
+        }
+        
+        else if(op === "*"){
+                showMessage.innerHTML = num1 * num2;
+        }
+        
+        else if(op === "/"){
+                showMessage.innerHTML = num1 / num2;
+        }
+        
+        else if(op === "%"){
+                showMessage.innerHTML = num1 % num2;
+        }
+
+        else {
+                alert("Plese enter the value")
+        }
+
+}
+
+
 // -------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -1097,7 +1134,6 @@
 
 // console.log(str.split(""))
 // // is sy shanzaib ka har word alag alag array m convert ho jay ga
-
 
 // ---------------------------------------------------------------------------
 
@@ -1128,7 +1164,9 @@
 
 // setInterval(function(){
 //         document.write("awais-danish" + "<br>")
-// }, 1000)              
+// }, 1000)
+
+
 // is main ak function hai aur 2nd time hai, means k 1000ms = 1sec (ye continue print krta rhy ga)
 
 // let i = 1;
@@ -1136,7 +1174,6 @@
 // setInterval(function(){
 //         document.writeln(i++ + "<br>" )
 // }, 1000)
-
 
 
 // ****************************************************************************
@@ -1205,6 +1242,180 @@
 
 // ____________________________________________________________________________________________________________
 
+// Q No 1
+// User se 2 numbers input lo (prompt) aur unka substraction, multiplication aur division display kro.
+
+// let num1 = +prompt("Enter Number 1");
+// let num2 = +prompt("Enter Number 2");
+
+// document.writeln(`
+//         The Sum of ${num1} and ${num2} is ${num1 + num2} <br>
+//         The Substraction of ${num1} and ${num2} is ${num1 - num2} <br>
+//         The Multiplication of ${num1} and ${num2} is ${num1 * num2} <br>
+//         The Division of ${num1} and ${num2} is ${num1 / num2} <br>
+//         The Modulus of ${num1} and ${num2} is ${num1 % num2} <br>
+//         `)
+
+// ---------------------------------------------------------------------------------------------------------------
+
+// Q No 2
+
+// Ek Program likho jo check kare ke diya gya number even hai ya odd
+
+// let num = +prompt("Enter Your Number")
+
+// if(num%2 === 0){
+//         alert("Your Number is Even")
+// }
+// else {
+//         alert("Your Number is Odd")
+// }
+
+// ---------------------------------------------------------------------------------------------------------------
+// Q No 3
+
+// User se age input lo aur check kro ko woh voting k liy eligible hai ya Nahi (18+)
+
+// let age = +prompt("Enter Your Age");
+
+// if(age >= 18){
+//         alert("Your are eligible for Voting")
+// }
+// else{
+//         alert("Your are not eligible for voting")
+// }
+
+// -------------------------------------------------------------------------------------------------------------
+
+// Q No 4
+// Ek Array banao jisme 5 numbers hon, aur unka total sub calculate kro using loop
+
+// let array = [1,2,3,4,5];
+
+// let total = 0;
+
+// for(i=0; i<array.length; i++){
+//         total += array[i]
+// }
+
+// alert(total)
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Q No 5
+
+// User sy ak string lo aur check karo ke woh palindrome hai ya nahi
+
+// let str = prompt("Enter Any Word");
+
+// let reverse = str.split('').reverse().join('');
+
+// if(str === reverse){
+//         alert("Your Word is Palindrome")
+// }
+// else{
+//         alert("Your word is not a Palindrome")
+// }
+
+// -------------------------------------------------------------------------------------------------------------
+
+// Q NO 6
+// Ek function banao jo 3 numbers main se largest number return kare
+
+// let num1 = +prompt("Enter Number 1")
+// let num2 = +prompt("Enter Number 2")
+// let num3 = +prompt("Enter Number 3")
+
+// function number(){
+//         if(num1 > num2 && num1 > num3){
+//                 return num1;
+//         }
+//         else if(num2 > num1 && num2 > num3){
+//                 return num2;
+//         }
+//         else if(num3 > num1 && num3 > num2){
+//                 return num3;
+//         }
+// }
+
+// document.writeln(number())
 
 
+// or
 
+// function findLargestNumber(a,b,c){
+//         if(a > b && a > c){
+//                 return a;
+//         }
+//         else if(b > a && b > c){
+//                 return b;
+//         }
+//         else if(c > a && c > b){
+//                 return c;
+//         }
+// }
+
+// let result = findLargestNumber(20,25,19)
+
+// document.writeln(result)
+// ----------------------------------------------------------------------------------------------------------
+
+// Q No 7
+
+// 1 se 20 tak numbers print karo lekin sirf even show karo (loop use kro)
+
+// for(i=1; i<=20; i++){
+//         if(i % 2 == 0){
+//                 document.writeln(i + "<br>")
+//         }
+// }
+
+// 1 se 20 tak numbers print karo lekin sirf odd show karo (loop use kro)
+
+// for(i=1; i<=20; i++){
+//         if(i % 2 !== 0){
+//                 document.writeln(i + "<br>")
+//         }
+// }
+
+// -------------------------------------------------------------------------------------------------------------
+
+// Q No 8
+
+// Ek program likho jo kisi bhi numbers ka factorial calculate kry
+
+// let number = +prompt("Enter Your Number")
+
+// let factorial = 1;
+
+// for(i=1; i<=number; i++){
+//         factorial *= i;
+// }
+
+// alert(`The factorial of ${number} is ${factorial}`)
+
+// ------------------------------------------------------------------------------------------------------------------
+
+// Q No 9
+// Ak array m 5 No store kro aur unko reverse order m store kro
+
+// let array = [10,20,30,40,50];
+
+// let reverse = array.reverse();
+
+// document.writeln(reverse)
+
+// ------------------------------------------------------------------------------------------------------------
+
+// User se password lo aur check kro agar 8 characters sy kam hai to Weak Password warna strong Password
+
+// let password = prompt("Enter Your Password");
+
+// if(password.length > 8){
+//         alert("Strong Password")
+// }
+// else{
+//         alert("Weak Password")
+// }
+
+// ----------------------------------------------------------------------------------------------------------------
