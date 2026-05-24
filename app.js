@@ -1421,3 +1421,145 @@ function calculate(){
 // }
 
 // ----------------------------------------------------------------------------------------------------------------
+
+// Object
+// Object created using curly brackets
+
+
+// let obj = {
+//         id : 1,
+//         fname : "Malik Shan",
+//         lname : "Maqbool"
+// }
+
+// console.log(obj.fname)
+// console.log(obj.lname)
+
+// or 2nd Method is
+
+// console.log(obj['fname'])
+
+// Sab cheezain ak sath print krny k liy
+// // for in ka loop sirf object py chalta hai
+
+// for(var key in obj){
+//         document.writeln(`${key} : ${obj[key]} <br>`)
+// }
+
+// Characteristics of Object
+
+// Objects accepts every data type
+// String
+// number
+// Array
+// function
+// another object
+
+// Add Array in object
+
+// let obj = {
+//         id: 1,
+//         fname : "Malik Shan",
+//         lname : "Maqbool",
+//         chars : ["Student", "Good Boy", "Healthy Man"]
+// }
+// document.writeln(obj["chars"].join("<br>"))  
+
+// Add function in object
+
+// function nahi likhty, function ka name likhty hai
+
+// let obj = {
+//         id: 1,
+//         fname : "Malik Shan",
+//         lname : "Maqbool",
+//         arr : ["Student", "Good Boy", "Healthy Man"],
+//         qualities : function(){
+//                 alert("He is a Good Man of Good Deeds")
+//         }
+// }
+
+// obj.qualities()
+
+// Add object in object
+
+// let obj = {
+//         id : 1,
+//         fname : "Malik Shan",
+//         lname : "Maqbool",
+//         arr : ["Student", "Good Boy", "Healthy Man"],
+//         qualities : function(){
+//                 alert("He is a Good Man with Good Deeds")
+//         },
+//         myIntro : {
+//                 "Name" : "Malik Shan",
+//                 "Age" : "28",
+//                 "Mobile No" : "03321905316"
+//         }
+// }
+
+// for(let key in obj.myIntro){
+
+// document.writeln(`${key} : ${obj.myIntro[key]} <br>`)
+// }
+
+// To Print the whole object
+
+// for(let key in obj){
+//         document.writeln(`${key} : ${JSON.stringify(obj[key])} <br>`)
+// }
+
+// Is main function undefined aa rha hai isko seekhna hai
+
+// **********************************************************************************************************************************
+
+// 2nd Mehtod of Object
+
+// object constructor (created by using round brackets ()) i.e new Object()
+
+// let stars = new Object()
+
+//         stars.id = "01"
+//         stars.name = "Salman Khan"
+
+// for(let key in stars){
+//         document.writeln(`${key} : ${stars[key]} <br>`)
+// }
+
+// Task
+
+// 3 objects in object
+
+// let cars = {
+//         Toyota : {
+//                "Name" : "Corolla",
+//                "Model" : "2026",          
+//                "Color" : "Black",         
+//                "Price" : "50 Lac",         
+//         },
+        
+//         Suzuki : {
+//                "Name" : "Swift",
+//                "Model" : "2026",         
+//                "Color" : "Black",         
+//                "Price" : "50 Lac",         
+//         },
+
+//         Honda : {
+//                "Name" : "Civic",
+//                "Model" : "2026",         
+//                "Color" : "Black",         
+//                "Price" : "50 Lac",         
+//         }
+// }
+
+// for (let key in cars) {
+//     document.writeln(`
+//         ${key} <br>
+//         Name : ${cars[key].Name} <br>
+//         Model : ${cars[key].Model} <br>
+//         Color : ${cars[key].Color} <br>
+//         Price : ${cars[key].Price} <br><br>
+//     `);
+// }
+
