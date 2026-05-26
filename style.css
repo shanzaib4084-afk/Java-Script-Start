@@ -18,8 +18,30 @@ h1{
 
 
 
-#msg-box{
+/* #msg-box{
     border: 1px solid black;
     width: 30%;
     padding: 30px;
+} */
+
+/* body{
+    background-color: yellowgreen;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#output{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: linear-gradient(to right bottom, rgb(171, 70, 70), rgb(183, 183, 87));
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+

@@ -1563,3 +1563,59 @@ function calculate(){
 //     `);
 // }
 
+// --------------------------------------------------------------------------------------------
+
+// Array of objects
+
+// let students = [
+//         {
+//         id: "01",
+//         s_name : "Aamir",
+//         s_age : "16",
+//         s_class : "Matric"
+//         },
+//         {
+//         id: "02",
+//         s_name : "Yasir",
+//         s_age : "18",
+//         s_class : "BSC"
+//         },
+//         {
+//         id: "03",
+//         s_name : "Nasir",
+//         s_age : "20",
+//         s_class : "BSCS"
+//         }
+// ]
+
+// for(i=0; i<students.length; i++){
+//         for(let key in students[i]){
+//                 document.writeln(`${key} : ${students[i][key]} <br>`)
+//         }
+//         document.writeln("<br>")
+// }
+
+// Task
+
+// let display = document.getElementById("output")
+
+// let items = [
+//         {
+//                 id: "Keyboard"
+//         },
+//         {
+//                 id : "Mouse"
+//         },
+//         {
+//                 id : "Speaker"
+//         }
+// ]
+
+// for(let i=0; i<items.length; i++){
+//         for(let key in items[i])
+// display.innerHTML += (`${items[i][key]} <br>`)
+// }
+
+// --------------------------------------------------------------------------------------------
+
+  
